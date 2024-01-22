@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hokey</title>
+    
+    <!-- Tailwind and DaisyUi -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- font -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    .font-manrope{
+      font-family: 'Manrope', sans-serif;
+    }
+    
+  </style>
 </head>
-<body>
-    <header>
+
+<body class="font-manrope">
+    
+  <header>
         <!-- navbar section -->
         <nav class="mt-14 mb-14 lg:ml-20 lg:mr-20 sm:ml-5 mr-5">
             <div class="navbar bg-base-100">
@@ -49,8 +64,9 @@
         </nav>
 
         <!-- header section -->
-
-        <div class="carousel relative mr-6 ml-6 lg:w-[1275px] lg:h-[550px] lg:ml-32 ">
+    
+        <div class="carousel relative mr-6 ml-6 lg:w-[1275px] lg:h-[550px] lg:ml-32">
+          
             <div id="slide1" class="carousel-item relative w-full">
               <img src="Images/1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -80,10 +96,18 @@
               </div>
             </div>
           </div>
-
-          <div class="">
-
+          
+          <div class="rounded-2xl lg:ml-[750px] lg:-translate-y-52
+            bg-black ml-5 mr-5 lg:h-[150px] lg:w-[620px]">
+            <div class="relative p-8">
+              <h4 class="text-white text-lg mb-2 lg:text-2xl font-extrabold lg:mb-4">Meet all the heroes from the field</h4>
+            <p class="text-white text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            
           </div>
+          
+          
+         
     </header>
 
     <main>
